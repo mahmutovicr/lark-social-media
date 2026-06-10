@@ -8,7 +8,7 @@
 
 ## About
 
-A full stack social media app — Twitter/X clone built with the MERN stack.
+A full stack social media app 
 
 ## Live Demo
 
@@ -21,7 +21,7 @@ https://lark-social-media.onrender.com/
 - **Follow System** — Follow and unfollow users
 - **Notifications** — Get notified on follows and likes
 - **User Profiles** — Edit bio, profile picture and cover image
-- **Image Upload** — Cloudinary-powered image hosting
+- **Image Upload** — Cloudinary powered image hosting
 - **Responsive** — Optimised for all screen sizes
 
 ## Tech Stack
