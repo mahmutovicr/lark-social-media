@@ -8,7 +8,7 @@
 
 ## About
 
-A Full Stack social media app 
+A Full Stack social media app built for sharing ideas, discovering people and staying connected
 
 ## Live Demo
 
