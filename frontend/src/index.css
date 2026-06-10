@@ -53,20 +53,41 @@ svg {
 @media (max-width: 639px) {
   .lark-login-root {
     flex-direction: column;
+    height: 100dvh;
+    overflow: hidden;
   }
   .lark-anim-panel {
-    flex: 0 0 50vh;
+    flex: 0 0 32dvh;
+    min-height: 0;
     width: 100%;
-    min-height: 50vh;
     border-right: none;
     border-bottom: 0.5px solid rgba(255,255,255,.07);
   }
   .lark-login-form-panel {
-    flex: 0 0 50vh;
+    flex: 1;
+    min-height: 0;
     width: 100%;
-    min-height: 50vh;
-    padding: 28px 24px;
-    overflow-y: auto;
+    padding: 20px 22px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  h1.lfi {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+  input.lfi {
+    padding: 10px 14px !important;
+    font-size: 14px !important;
+  }
+  button.lfi {
+    padding: 11px !important;
+    font-size: 14px !important;
+  }
+  .lark-login-form-panel > div {
+    gap: 14px !important;
+  }
+  .lark-login-form-panel form {
+    gap: 8px !important;
   }
 }
 
