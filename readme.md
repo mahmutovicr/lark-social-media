@@ -8,7 +8,7 @@
 
 ## About
 
-A full stack social media app 
+A Full Stack social media app 
 
 ## Live Demo
 
