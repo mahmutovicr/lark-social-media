@@ -165,17 +165,6 @@ const LoginPage = () => {
               strokeWidth="3.2"
               strokeLinecap="round"
             />
-            <text
-              x="160"
-              y="308"
-              textAnchor="middle"
-              fontFamily="'Playfair Display',Georgia,serif"
-              fontSize="24"
-              fontWeight="900"
-              fill="#e7e9ea"
-            >
-              Lark
-            </text>
           </g>
         </svg>
       </div>
