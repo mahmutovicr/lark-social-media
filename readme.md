@@ -16,13 +16,13 @@ https://lark-social-media.onrender.com/
 
 ## Features
 
+- **Responsive** — Optimised for all screen sizes
 - **Guest Mode** — Explore the app instantly without creating an account
 - **Posts** — Create, like, and comment on posts with optional image upload
 - **Follow System** — Follow and unfollow users
 - **Notifications** — Get notified on follows and likes
 - **User Profiles** — Edit bio, profile picture and cover image
 - **Image Upload** — Cloudinary powered image hosting
-- **Responsive** — Optimised for all screen sizes
 
 ## Tech Stack
 
@@ -32,7 +32,6 @@ https://lark-social-media.onrender.com/
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 ⚠️ Built as a portfolio project, not intended for commercial use
 
