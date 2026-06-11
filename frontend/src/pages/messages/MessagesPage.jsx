@@ -255,8 +255,8 @@ const MessagesPage = () => {
         Kontrola isključivo Tailwind klasama — bez inline display styla
       */}
       <div
-        className={`${mobileView === "chat" ? "hidden md:flex" : "flex"} flex-col`}
-        style={{ width: "280px", minWidth: "280px", borderRight: "0.5px solid #2f3336" }}
+        className={`${mobileView === "chat" ? "hidden md:flex" : "flex"} flex-col w-full md:w-[280px] md:min-w-[280px]`}
+        style={{ borderRight: "0.5px solid #2f3336" }}
       >
         <ConvList selectedId={selectedId} onSelect={handleSelect} />
       </div>
