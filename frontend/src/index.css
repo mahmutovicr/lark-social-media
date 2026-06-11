@@ -57,18 +57,18 @@ svg {
     overflow: hidden;
   }
   .lark-anim-panel {
-    flex: 0 0 32dvh;
+    flex: 0 0 50%;
     min-height: 0;
     width: 100%;
     border-right: none;
     border-bottom: 0.5px solid rgba(255,255,255,.07);
   }
   .lark-login-form-panel {
-    flex: 1;
+    flex: 0 0 50%;
     min-height: 0;
     width: 100%;
     padding: 20px 22px;
-    overflow: hidden;
+    overflow-y: auto;
     justify-content: center;
   }
   h1.lfi {
