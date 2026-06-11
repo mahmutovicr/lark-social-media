@@ -33,7 +33,7 @@ const ExplorePage = () => {
   return (
     <div
       className="flex-[4_4_0] min-h-screen"
-      style={{ borderRight: "0.5px solid #2f3336", overflowX: "clip" }}
+      style={{ borderRight: "0.5px solid #2f3336" }}
     >
       <div
         className="sticky top-0 z-10"
