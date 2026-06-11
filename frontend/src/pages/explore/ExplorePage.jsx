@@ -32,7 +32,7 @@ const ExplorePage = () => {
 
   return (
     <div
-      className="flex-[4_4_0] min-h-screen"
+      className="flex-[4_4_0] min-h-screen min-w-0"
       style={{ borderRight: "0.5px solid #2f3336" }}
     >
       <div
