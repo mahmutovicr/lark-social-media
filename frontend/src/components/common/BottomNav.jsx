@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { MdHomeFilled, MdOutlineExplore } from "react-icons/md";
-import { IoNotificationsOutline } from "react-icons/io5";
+import { IoNotificationsOutline, IoMailOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { BiLogOut } from "react-icons/bi";
 import useAuthUser from "../../hooks/useAuthUser";
@@ -25,7 +25,8 @@ const BottomNav = () => {
   const items = [
     { icon: MdHomeFilled, to: "/", label: "Home" },
     { icon: MdOutlineExplore, to: "/explore", label: "Explore" },
-    { icon: IoNotificationsOutline, to: "/notifications", label: "Notifs" },
+    { icon: IoNotificationsOutline, to: "/notifications", label: "Notifications" },
+    { icon: IoMailOutline, to: "/messages", label: "Messages" },
     { icon: FaRegUser, to: `/profile/${authUser?.username}`, label: "Profile" },
   ];
 
@@ -46,22 +47,44 @@ const BottomNav = () => {
           <Link
             key={to}
             to={to}
-            className="flex-1 flex flex-col items-center justify-center py-3 gap-0.5"
+            className="flex-1 min-w-0 flex flex-col items-center justify-center py-3 gap-0.5"
             style={{ color: active ? "#1d9bf0" : "#71767b" }}
           >
             <Icon style={{ fontSize: "24px", display: "block" }} />
-            <span style={{ fontSize: "10px", fontWeight: active ? 700 : 400 }}>{label}</span>
+            <span
+              style={{
+                fontSize: "9px",
+                fontWeight: active ? 700 : 400,
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                maxWidth: "100%",
+              }}
+            >
+              {label}
+            </span>
           </Link>
         );
       })}
 
       <button
-        className="flex-1 flex flex-col items-center justify-center py-3 gap-0.5"
+        className="flex-1 min-w-0 flex flex-col items-center justify-center py-3 gap-0.5"
         style={{ color: "#71767b", background: "none", border: "none", cursor: "pointer" }}
         onClick={() => logout()}
       >
         <BiLogOut style={{ fontSize: "24px", display: "block" }} />
-        <span style={{ fontSize: "10px", fontWeight: 400 }}>Logout</span>
+        <span
+          style={{
+            fontSize: "9px",
+            fontWeight: 400,
+            whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            maxWidth: "100%",
+          }}
+        >
+          Logout
+        </span>
       </button>
     </nav>
   );
